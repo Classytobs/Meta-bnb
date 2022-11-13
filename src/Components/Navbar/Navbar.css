@@ -1,0 +1,44 @@
+.navbar__all {
+    position: fixed;
+    top: -2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+}
+.navbar__options ul {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    color: #434343;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.connect {
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    height: 48px;
+    width: 178px;
+    text-align: center;
+    justify-content: center;
+    
+}
+h4 {
+    margin-top: 15px;
+    color: white;
+}
